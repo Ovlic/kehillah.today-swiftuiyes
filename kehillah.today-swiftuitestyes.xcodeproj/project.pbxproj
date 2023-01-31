@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A401257B2980969C0049345A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401257A2980969C0049345A /* ContentView.swift */; };
+		A401257D298096CB0049345A /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401257C298096CB0049345A /* ScheduleItem.swift */; };
+		A40309932980976B003356D0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40309922980976B003356D0 /* Event.swift */; };
 		A40F767A2980728C00B40F3A /* kehillah_today_swiftuitestyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40F76792980728C00B40F3A /* kehillah_today_swiftuitestyesApp.swift */; };
-		A40F767C2980728C00B40F3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40F767B2980728C00B40F3A /* ContentView.swift */; };
 		A40F767E2980728D00B40F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40F767D2980728D00B40F3A /* Assets.xcassets */; };
 		A40F76812980728D00B40F3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40F76802980728D00B40F3A /* Preview Assets.xcassets */; };
+		A40F7688298072C400B40F3A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40F7687298072C400B40F3A /* ScheduleView.swift */; };
+		A40F768C298073A300B40F3A /* BebasNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F7689298073A300B40F3A /* BebasNeue.ttf */; };
+		A40F768D298073A300B40F3A /* Righteous.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F768A298073A300B40F3A /* Righteous.ttf */; };
+		A40F768E298073A300B40F3A /* BarlowSemiCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */; };
+		A4404D6F2988DC380082EB19 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4404D6E2988DC380082EB19 /* PreLaunch.swift */; };
+		A452BD1F29885CDF00F6454C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452BD1E29885CDF00F6454C /* test.swift */; };
+		A45525EB2984FC6D005E6A04 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45525EA2984FC6D005E6A04 /* CustomNavBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A401257A2980969C0049345A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A401257C298096CB0049345A /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		A40309922980976B003356D0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A40F76762980728C00B40F3A /* kehillah.today-swiftuitestyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kehillah.today-swiftuitestyes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40F76792980728C00B40F3A /* kehillah_today_swiftuitestyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kehillah_today_swiftuitestyesApp.swift; sourceTree = "<group>"; };
-		A40F767B2980728C00B40F3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A40F767D2980728D00B40F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40F76802980728D00B40F3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A40F7687298072C400B40F3A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		A40F7689298073A300B40F3A /* BebasNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.ttf; sourceTree = "<group>"; };
+		A40F768A298073A300B40F3A /* Righteous.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Righteous.ttf; sourceTree = "<group>"; };
+		A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BarlowSemiCondensed.ttf; sourceTree = "<group>"; };
+		A40F76912980740200B40F3A /* kehillah-today-swiftuitestyes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kehillah-today-swiftuitestyes-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A4404D6E2988DC380082EB19 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
+		A452BD1E29885CDF00F6454C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A45525EA2984FC6D005E6A04 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,16 @@
 		A40F76782980728C00B40F3A /* kehillah.today-swiftuitestyes */ = {
 			isa = PBXGroup;
 			children = (
+				A40F76912980740200B40F3A /* kehillah-today-swiftuitestyes-Info.plist */,
+				A40309922980976B003356D0 /* Event.swift */,
+				A45525EA2984FC6D005E6A04 /* CustomNavBarView.swift */,
 				A40F76792980728C00B40F3A /* kehillah_today_swiftuitestyesApp.swift */,
-				A40F767B2980728C00B40F3A /* ContentView.swift */,
+				A401257A2980969C0049345A /* ContentView.swift */,
+				A4404D6E2988DC380082EB19 /* PreLaunch.swift */,
+				A452BD1E29885CDF00F6454C /* test.swift */,
+				A401257C298096CB0049345A /* ScheduleItem.swift */,
+				A40F7690298073D200B40F3A /* Fonts */,
+				A40F7687298072C400B40F3A /* ScheduleView.swift */,
 				A40F767D2980728D00B40F3A /* Assets.xcassets */,
 				A40F767F2980728D00B40F3A /* Preview Content */,
 			);
@@ -65,6 +92,16 @@
 				A40F76802980728D00B40F3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A40F7690298073D200B40F3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A40F7689298073A300B40F3A /* BebasNeue.ttf */,
+				A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */,
+				A40F768A298073A300B40F3A /* Righteous.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +164,9 @@
 			files = (
 				A40F76812980728D00B40F3A /* Preview Assets.xcassets in Resources */,
 				A40F767E2980728D00B40F3A /* Assets.xcassets in Resources */,
+				A40F768E298073A300B40F3A /* BarlowSemiCondensed.ttf in Resources */,
+				A40F768C298073A300B40F3A /* BebasNeue.ttf in Resources */,
+				A40F768D298073A300B40F3A /* Righteous.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40F767C2980728C00B40F3A /* ContentView.swift in Sources */,
 				A40F767A2980728C00B40F3A /* kehillah_today_swiftuitestyesApp.swift in Sources */,
+				A401257D298096CB0049345A /* ScheduleItem.swift in Sources */,
+				A40F7688298072C400B40F3A /* ScheduleView.swift in Sources */,
+				A45525EB2984FC6D005E6A04 /* CustomNavBarView.swift in Sources */,
+				A4404D6F2988DC380082EB19 /* PreLaunch.swift in Sources */,
+				A401257B2980969C0049345A /* ContentView.swift in Sources */,
+				A40309932980976B003356D0 /* Event.swift in Sources */,
+				A452BD1F29885CDF00F6454C /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +316,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "kehillah-today-swiftuitestyes-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +345,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "kehillah-today-swiftuitestyes-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
