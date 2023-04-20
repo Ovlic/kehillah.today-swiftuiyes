@@ -8,13 +8,7 @@
 		<string>BarlowSemiCondensed.ttf</string>
 		<string>Righteous.ttf</string>
 		<string>BebasNeue.ttf</string>
+		<string>BarlowSemiCondensed-Bold</string>
 	</array>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<true/>
-		<key>UISceneConfigurations</key>
-		<dict/>
-	</dict>
 </dict>
 </plist>
