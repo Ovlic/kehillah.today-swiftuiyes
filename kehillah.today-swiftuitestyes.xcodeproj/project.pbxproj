@@ -17,6 +17,7 @@
 		A40F768C298073A300B40F3A /* BebasNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F7689298073A300B40F3A /* BebasNeue.ttf */; };
 		A40F768D298073A300B40F3A /* Righteous.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F768A298073A300B40F3A /* Righteous.ttf */; };
 		A40F768E298073A300B40F3A /* BarlowSemiCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */; };
+		A428479429F1959900694B70 /* BarlowSemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A428479329F1959900694B70 /* BarlowSemiCondensed-Bold.ttf */; };
 		A4404D6F2988DC380082EB19 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4404D6E2988DC380082EB19 /* PreLaunch.swift */; };
 		A452BD1F29885CDF00F6454C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452BD1E29885CDF00F6454C /* test.swift */; };
 		A45525EB2984FC6D005E6A04 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45525EA2984FC6D005E6A04 /* CustomNavBarView.swift */; };
@@ -35,6 +36,7 @@
 		A40F768A298073A300B40F3A /* Righteous.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Righteous.ttf; sourceTree = "<group>"; };
 		A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BarlowSemiCondensed.ttf; sourceTree = "<group>"; };
 		A40F76912980740200B40F3A /* kehillah-today-swiftuitestyes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kehillah-today-swiftuitestyes-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A428479329F1959900694B70 /* BarlowSemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowSemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		A4404D6E2988DC380082EB19 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
 		A452BD1E29885CDF00F6454C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		A45525EA2984FC6D005E6A04 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		A40F7690298073D200B40F3A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				A428479329F1959900694B70 /* BarlowSemiCondensed-Bold.ttf */,
 				A40F7689298073A300B40F3A /* BebasNeue.ttf */,
 				A40F768B298073A300B40F3A /* BarlowSemiCondensed.ttf */,
 				A40F768A298073A300B40F3A /* Righteous.ttf */,
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A428479429F1959900694B70 /* BarlowSemiCondensed-Bold.ttf in Resources */,
 				A40F76812980728D00B40F3A /* Preview Assets.xcassets in Resources */,
 				A40F767E2980728D00B40F3A /* Assets.xcassets in Resources */,
 				A40F768E298073A300B40F3A /* BarlowSemiCondensed.ttf in Resources */,
@@ -317,6 +321,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kehillah-today-swiftuitestyes-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -346,6 +351,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kehillah-today-swiftuitestyes-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
